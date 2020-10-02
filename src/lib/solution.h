@@ -7,10 +7,14 @@
 class Solution {
 public:
   
-  std::vector<int> FindPrimeRecursive(int &num);
-  std::vector<int> Prime_SieveOfEratosthenes(int &num); 
-  int globalChk;  
-  bool isPrime(int &num); 
+  void SwapByRefernce(int &input1, int &input2);
+  void SwapByPointer(int *input1, int *input2);
+  void UniqeVectorNotBySet(std::vector<int> &input);
+  void UniqeVectorBySet(std::vector<int> &input);
+  void ReverseVector(std::vector<int> &input);
+  void OddVector(std::vector<int> &input);
+  void ReverseString(std::string &input); 
+  void ToLower(std::string& input);
 
 //private:
 };
